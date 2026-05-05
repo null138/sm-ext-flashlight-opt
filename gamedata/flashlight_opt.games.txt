@@ -1,0 +1,43 @@
+"Games"
+{
+	"#default"
+	{
+		"Signatures"
+		{
+			"CGameServer_SendClientMessages"
+			{
+				"library"	"engine"
+				"windows"	"\x55\x8B\xEC\x81\xEC\x34\x04\x00\x00\x53\x56\x8B\xF1"
+				"linux"		"@_ZN11CGameServer18SendClientMessagesEb"
+				"linux64"	"@_ZN11CGameServer18SendClientMessagesEb"
+			}
+			"CGameClient_ShouldSendMessages"
+			{
+				"library"	"engine"
+				"windows"	"\x55\x8B\xEC\x51\x56\x8B\xF1\x80\xBE\x94\x00\x00\x00\x00"
+				"linux"		"@_ZN11CGameClient18ShouldSendMessagesEv"
+				"linux64"	"@_ZN11CGameClient18ShouldSendMessagesEv"
+			}
+		}
+	}
+	"cstrike"
+	{
+		"Signatures"
+		{
+			"CGameServer_SendClientMessages"
+			{
+				"library"	"engine"
+				"windows"	"\x55\x8B\xEC\x81\xEC\x34\x04\x00\x00\x53\x56\x8B\xF1"
+				"linux"		"@_ZN11CGameServer18SendClientMessagesEb"
+				"linux64"	"@_ZN11CGameServer18SendClientMessagesEb"
+			}
+			"CGameClient_ShouldSendMessages"
+			{
+				"library"	"engine"
+				"windows"	"\x55\x8B\xEC\x51\x56\x8B\xF1\x80\xBE\x94\x00\x00\x00\x00"
+				"linux"		"@_ZN11CGameClient18ShouldSendMessagesEv"
+				"linux64"	"@_ZN11CGameClient18ShouldSendMessagesEv"
+			}
+		}
+	}
+}
