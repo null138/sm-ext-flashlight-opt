@@ -18,6 +18,12 @@
 				"linux"		"@_ZN11CGameClient18ShouldSendMessagesEv"
 				"linux64"	"@_ZN11CGameClient18ShouldSendMessagesEv"
 			}
+			"SV_ComputeClientPacks"
+			{
+				"library"	"engine"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x64\x8B\x0D\x2A\x2A\x2A\x2A"
+				"linux"		"@_Z21SV_ComputeClientPacksiPP11CGameClientP14CFrameSnapshot"
+			}
 		}
 	}
 	"cstrike"
@@ -37,6 +43,12 @@
 				"windows"	"\x55\x8B\xEC\x51\x56\x8B\xF1\x80\xBE\x94\x00\x00\x00\x00"
 				"linux"		"@_ZN11CGameClient18ShouldSendMessagesEv"
 				"linux64"	"@_ZN11CGameClient18ShouldSendMessagesEv"
+			}
+			"SV_ComputeClientPacks"
+			{
+				"library"	"engine"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x64\x8B\x0D\x2A\x2A\x2A\x2A"
+				"linux"		"@_Z21SV_ComputeClientPacksiPP11CGameClientP14CFrameSnapshot"
 			}
 		}
 	}
