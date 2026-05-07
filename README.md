@@ -15,3 +15,7 @@ sourcemod/public/
      └─ zydis/
 ```
 **This step is not required on all operating systems.**
+
+# Known Problems
+- The flashlight is not visible to spectators.
+- The flashlight toggle sound still plays, but this is a minor issue.
